@@ -19,9 +19,12 @@ Feature Extraction: The audio features are extracted using the Mel-frequency cep
 
 ## Getting Started
 
-### Requirements: Make sure you have Python (>=3.6) installed along with the required libraries listed in the requirements.txt file.
+### Requirements: 
+Make sure you have Python (>=3.6) installed along with the required libraries listed in the requirements.txt file. <br>
+
 Data Preprocessing: Use the provided scripts for data preprocessing. Run prepare_dataset.py to create the training and testing datasets.
-Feature Extraction: The extract_features function in deepspecch.py extracts MFCC features from audio files.
+Feature Extraction: The extract_features function in deepspecch.py extracts MFCC features from audio files. <br>
+
 Model Training: The RNN-based model is trained using the train_model function in deepspecch.py. Adjust hyperparameters as needed.
 Transcription: After training, you can use the trained model to transcribe audio files using the transcribe_audio function.
 
